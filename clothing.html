@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/57e5463b98.js" crossorigin="anonymous"></script>
+   
+    <title>SHOPLANE</title>
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <!-- -----------header part------ -->
+        <header class="header" id="home">
+            <nav>
+                <div class="menu-toggle"><i class="fa-solid fa-bars menu-toggle-btn"></i></div>
+
+            <div class="logo-section">
+                <h1 class="logo"><a href="/index.html"><span>SHOP</span>LANE</a></h1>
+            </div> 
+            <form class="search-section">
+                <input type="search" class="search" placeholder="Search....">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </form>
+
+            <!-- -----------navigation links---------- -->
+                <ul class="navlink-container">
+                    <li class="navlink link"><a href="/index.html">home</a></li>
+                    <li class="navlink link"><a href="/clothing.html">clothing</a></li>
+                    <li class="navlink link"><a href="/accessories.html">accessories</a></li>
+                </ul> 
+                <!-- ------------cart and wishlist------------ -->
+            <div class="header-features">
+                
+                <div class="feature-wrapper">
+                    <i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i>
+                    <div class="cart-count">0</div>
+                    <span class="feature-txt">Cart</span>
+                </div>
+                <div class="feature-wrapper">
+                    <i class="fa-solid fa-circle-user user-img"></i>
+                    <span class="feature-txt">login</span>
+                </div>  
+            </div>
+        </nav>
+        <form action="" class="mobile-search">
+            <input type="search" class="search" placeholder="Search....">
+                <i class="fa fa-solid fa-magnifying-glass search-icon"></i>
+            </form>
+            <section class="mobile-nav">
+                <div class="nav-close"><i class="fa-solid fa-xmark nav-close-btn"></i></div>
+                <ul class="navlink-container">
+                    <li class="navlink link"><a href="/index.html"><i class="fa-solid fa-house"></i> home</a></li>
+                    <li class="navlink link"><a href="/clothing.html"><i class="fa-solid fa-shirt"></i> clothing</a></li>
+                    <li class="navlink link"><a href="/accessories.html"><i class="fa-solid fa-headphones"></i> accessories</a></li>
+                </ul> 
+               </section>
+    </header>
+   <div class="overlay"></div>
+
+   
+<section class="cart-section">
+    <div class="cart-container">
+        <div class="cart-close"><i class="fa-solid fa-xmark cart-close-btn"></i></div>
+        <h3 class="cart-heading">Cart</h3>
+        <div class="cart-items-container">
+            <div class="cart-cards-container"></div>
+            <div class="amount-conainer">
+                <span class="total-amount">Total Amount :</span>
+                <span class="price">RS <span>000</span>/-</span>
+                <a href="order.html"><button class="checkout-btn">Place order</button></a>
+        </div>
+    </div>
+</section>
+
+<main class="porducts-section">
+    <h2 class="section-heading">Clothing for Men and Women</h2>
+    <div class="cards-container">
+
+    </div>
+</main>
+
+   <footer>
+    <div class="footer-details-container">
+        <h4 class="footer-heading">online store</h4>
+        <p class="details">mens clothing</p>
+        <p class="details">womens clothing</p>
+        <p class="details">mens accessories</p>
+        <p class="details">womens accessories</p>
+    </div>
+
+    <div class="footer-details-container">
+        <h4 class="footer-heading">helpful links</h4>
+        <span class="footer-link link"><a href="#home">home</a></span>
+        <span class="footer-link link"><a href="#">about</a></span>
+        <span class="footer-link link"><a href="#">contact</a></span>
+    </div>
+
+    <div class="footer-details-container">
+        <h4 class="footer-heading">partners</h4>
+        <span class="footer-link link"><a href="#home">zara</a></span>
+        <span class="footer-link link"><a href="#">pentaloons</a></span>
+        <span class="footer-link link"><a href="#">levis</a></span>
+        <span class="footer-link link"><a href="#home">ucb</a></span>
+        <span class="footer-link link"><a href="#">+many more</a></span>
+    </div>
+
+    <div class="footer-details-container">
+        <h4 class="footer-heading">address</h4>
+        <p class="details">bilding 101</p>
+        <p class="details">central avenue</p>
+        <p class="details">la - 902772</p>
+        <p class="details">united states</p>
+    </div>
+   </footer> 
+    </div>
+
+
+    <script type="module" src="./src/pages/clothing.js"></script>
+</body>
+</html>
